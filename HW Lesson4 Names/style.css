@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family:'Parisienne-Regular';
+    url(Parisienne-Regular.ttf);
+}
+.wrapper{
+    width: 70%;
+    height: 20vw;
+    outline: 2vw groove darkcyan;
+    margin: 100px auto;
+}
+
+.letter{
+    height: 20vw;
+    width: 20%;
+    border: 0.2vw solid #003737;
+    float: left;
+    text-align: center;
+    line-height: 20vw;
+    font-family: 'Parisienne', cursive;
+    font-weight: bold;
+    font-size: 10vw;
+    font-style: italic;
+    text-shadow: 1px 1px white;
+    transition: 0.8s;
+}
+
+.letter1{
+    background-image: linear-gradient(to right, #003737, darkcyan)
+}
+
+.letter2{
+    background-image: linear-gradient(to right, darkcyan, #20f7f7)
+}
+
+.letter3{
+    background-image: radial-gradient(at center, #f6fbfd, #20f7f7)
+}
+
+.letter4{
+    background-image: linear-gradient(to left, darkcyan, #20f7f7)
+}
+
+.letter5{
+    background-image: linear-gradient(to left, #003737, darkcyan)
+}
+
+.letter:hover{
+    cursor: pointer;
+    background-image:radial-gradient(at center, #003737, #91bbbb);
+    color: white;
+    text-shadow: 3px 3px black;
+}
